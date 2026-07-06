@@ -1,0 +1,16 @@
+# ====================================================
+# 提示词文件路径配置
+# ====================================================
+# 所有路径均相对于项目根目录
+
+# main_prompt_path: 主系统提示词文件
+#   定义了智能体的角色、ReAct 思考流程、工具使用规则
+main_prompt_path: prompts/main_prompt.txt
+
+# rag_summarize_prompt_path: RAG 总结提示词文件
+#   定义了 LLM 在 RAG 场景下如何基于参考资料做总结
+rag_summarize_prompt_path: prompts/rag_summarize.txt
+
+# report_prompt_path: 报告生成提示词文件
+#   定义了生成"使用报告"时的专用提示词
+report_prompt_path: prompts/report_prompt.txt

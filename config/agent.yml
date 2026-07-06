@@ -1,0 +1,3 @@
+external_data_path: data/external/records.csv
+trace_path: traces
+profile_path: profiles

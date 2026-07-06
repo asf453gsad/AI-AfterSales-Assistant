@@ -1,0 +1,18 @@
+# API Key
+.env
+
+# Runtime data
+traces/
+profiles/
+chroma_db/
+logs/
+
+# IDE
+.idea/
+.vscode/
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
