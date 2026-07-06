@@ -1,4 +1,4 @@
-# SmartClean-AI
+# AI-AfterSales-Assistant
 
 基于 LangGraph + Streamlit + Qwen 的扫地机器人智能客服系统。支持 RAG 知识库问答、多智能体路由、对话压缩、用户画像分析。
 
@@ -15,7 +15,7 @@
 ## 架构
 
 ```
-SmartClean-AI/
+AI-AfterSales-Assistant/
 ├── app.py                  # Streamlit 前端入口
 ├── agent/
 │   ├── react_agent.py      # 主对话 Agent（LangGraph）
